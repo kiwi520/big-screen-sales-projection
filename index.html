@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.ico"><title>快递查询系统</title><style type="text/css">.load-container {
+            width: 150px;
+            height: 150px;
+            background-color: #00adb5;
+            -webkit-animation: rotateplane 1.2s infinite ease-in-out;
+            animation: rotateplane 1.2s infinite ease-in-out;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        @-webkit-keyframes rotateplane {
+            0% { -webkit-transform: perspective(120px) }
+            50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+            100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+        }
+
+        @keyframes rotateplane {
+            0% {
+                transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+                -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+            } 50% {
+                  transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+                  -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+              } 100% {
+                    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+                    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+                }
+        }</style>
+  <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.14/vue.min.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/vue-router/3.5.2/vue-router.min.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/vuex/3.6.2/vuex.min.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.1.2/echarts.min.js"></script>
+  <link href="css/about.42d70242.css" rel="prefetch"><link href="js/about.01319070.js" rel="prefetch"><link href="css/app.9f3667bf.css" rel="preload" as="style"><link href="js/app.cda608f8.js" rel="preload" as="script"><link href="js/chunk-vendors.c38c0a39.js" rel="preload" as="script"><link href="css/app.9f3667bf.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but 快递查询系统 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"><div class="load-container"></div></div><script src="js/chunk-vendors.c38c0a39.js"></script><script src="js/app.cda608f8.js"></script></body></html>
